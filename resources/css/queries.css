@@ -1,0 +1,122 @@
+
+
+
+
+
+
+/* small phonespig tablets to 1200px(widths smaller than 1140px row)*/
+@media only screen and (max-width: 1200px){
+
+
+
+
+}
+
+
+
+/* small tablets to big tablets : from 768 to 1023px*/
+@media only screen and (max-width: 1023px){
+
+
+
+
+.h-fr{
+	font-size: 200%;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+.h-ar{
+	float: right;
+	margin-right: 70px;
+	font-size: 200%;
+}
+
+}
+
+
+
+/* small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px){
+	.head-1{
+	position: absolute;
+	width:480px;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.main-nav{display: none;}
+.mobile-nav-icon{
+	display: inline-block;
+	float: right;
+	color: #fff;
+	margin-top: 6px;
+}
+.main-nav{
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.main-nav li{
+	display: block;
+
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	display: block;
+	border:0;
+	padding: 8px 0;
+}
+.sticky .main-nav{
+	float: left;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+	
+	padding: 10px 0;
+	
+}
+.sticky .mobile-nav-icon i{color: #555;
+float: right;}
+.h-tam{
+	font-size: 150%;
+	margin-top: -100px;
+	
+	text-align: center;
+}
+.h-fr{
+	font-size: 120%;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+
+}
+
+
+/* small phones : from 0 to 480px*/
+@media only screen and (max-width: 480px){
+.head-1{
+	position: absolute;
+	width:400px;
+	top: 85%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.h-tam{
+	font-size: 120%;
+	margin-top: -120px;
+	margin-left: 40px;
+	text-align: center;
+}
+.h-ar{
+	float: right;
+	margin-right: 40px;
+}
+.h-fr{
+	font-size: 120%;
+	margin-left: 95px;
+	margin-top: -50px;
+}
+
+}
